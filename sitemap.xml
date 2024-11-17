@@ -33,7 +33,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Testimonials Page -->
   <url>
     <loc>https://elostora.vercel.app/testimonials</loc>
     <lastmod>2024-11-17</lastmod>
@@ -41,12 +40,6 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Google Maps Link -->
-  <url>
-    <loc>https://www.google.com/maps?q=21.559386,39.2932468&z=17&hl=ar</loc>
-    <lastmod>2024-11-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+
 
 </urlset>
