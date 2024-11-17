@@ -5,7 +5,7 @@
   <url>
     <loc>https://elostora.vercel.app/</loc>
     <lastmod>2024-11-17</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
 
@@ -13,7 +13,7 @@
   <url>
     <loc>https://elostora.vercel.app/services</loc>
     <lastmod>2024-11-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
 
@@ -21,7 +21,7 @@
   <url>
     <loc>https://elostora.vercel.app/contact</loc>
     <lastmod>2024-11-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -29,7 +29,7 @@
   <url>
     <loc>https://elostora.vercel.app/about</loc>
     <lastmod>2024-11-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -37,7 +37,7 @@
   <url>
     <loc>https://elostora.vercel.app/testimonials</loc>
     <lastmod>2024-11-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
