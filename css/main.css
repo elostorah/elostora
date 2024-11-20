@@ -99,7 +99,15 @@ body {
 
 @media (min-width:768px) {
     .header {
-        height: 130px;
+        height: 150px;
+    }
+
+
+}
+
+@media (min-width:300px) {
+    .header {
+        height: 100px;
     }
 
 
@@ -379,41 +387,70 @@ about-the-event .one {
 
 /* me */
 .sub-container {
-    position: relative;
-    /* Default stacking context for sub-containers */
+    flex: 1;
+    /* Makes the items flexible */
+    min-width: 300px;
+    /* Ensures items do not shrink too small */
+    margin: 10px;
+    /* Adds margin around each item */
+    box-sizing: border-box;
 }
 
-.one {
-    position: relative;
-    /* Required for z-index to work */
-    z-index: 10;
-    /* Place this element above others with lower z-index */
-    /* background-color: rgba(0, 0, 0, 0.1); */
-    padding: 20px;
-    /* border: 1px solid #ddd; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
-    color: #dadde0;
-    font-size: 20px;
+/* Media query for small screens */
+@media (max-width: 768px) {
+    #gg {
+        flex-direction: row;
+        /* Stacks items vertically */
+        align-items: center;
+        /* Centers items horizontally */
+        justify-content: space-between;
+    }
+
+    .sub-container {
+        width: 50%;
+        /* Makes sub-containers take full width */
+        /* text-align: center; Centers text inside the sub-container */
+    }
+
+    .map-img {
+        width: 50%;
+        /* Makes the image take the full width of its container */
+        max-width: 200px;
+        /* Limits the maximum width */
+        margin: 0 auto;
+        /* Centers the image */
+        /* height: 200px; */
+    }
+
+    #two {
+        margin-top: 150px;
+    }
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent overlay */
-    z-index: 5;
-    /* Lower z-index than .abdo to appear underneath it */
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+/* General button styles */
+#last {
+    display: inline-block;
+    padding: 10px 20px;
     text-align: center;
-    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #06407a;
+    border-radius: 5px;
 }
 
+/* Center the button on small screens */
+@media (max-width: 768px) {
+    #last {
+        display: block;
+        /* Ensures block-level element for centering */
+        margin: 30px auto;
+        /* Centers the button horizontally */
+        text-align: center;
+        /* Ensures text inside button is centered */
+    }
+}
 
 
 
