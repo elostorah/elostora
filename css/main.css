@@ -426,7 +426,7 @@ about-the-event .one{
 @media (max-width: 768px) {
     #last {
         display: block; /* Ensures block-level element for centering */
-        margin: 20px auto; /* Centers the button horizontally */
+        margin: 30px auto; /* Centers the button horizontally */
         text-align: center; /* Ensures text inside button is centered */
     }
 }
