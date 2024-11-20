@@ -411,6 +411,25 @@ about-the-event .one{
 
 
 
+/* General button styles */
+#last {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #06407a;
+    border-radius: 5px;
+}
+
+/* Center the button on small screens */
+@media (max-width: 768px) {
+    #last {
+        display: block; /* Ensures block-level element for centering */
+        margin: 20px auto; /* Centers the button horizontally */
+        text-align: center; /* Ensures text inside button is centered */
+    }
+}
 
 
 
